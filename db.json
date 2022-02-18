@@ -1,0 +1,53 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "ten": "Hoa đồng tiền đây nè",
+      "anhBia": "https://images.vietnamdaily.net.vn/zoomh/430/uploaded/nguyenvan/2020_03_05/4/diem-dac-biet-cua-to-tien-500000-dong-co-menh-gia-lon-nhat-viet-nam-Hinh-9.jpg",
+      "noiDung": "Nam Sơn định giá mọi loại hoa !",
+      "gia": 400000
+    },
+    {
+      "id": 2,
+      "ten": "Hoa súng",
+      "anhBia": "https://hoadepviet.com/wp-content/uploads/2017/01/hoa-sung-3a.jpg",
+      "noiDung": "Bán rẻ như cho nhưng không cho",
+      "gia": 300000
+    },
+    {
+      "id": 3,
+      "ten": "Hoa mặt trời",
+      "anhBia": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5556370e-b85c-44f4-9c5d-128164e3fe4f/d7gic8z-56878fae-aa37-49ed-bdeb-868abc3f23cb.png/v1/fill/w_839,h_952,strp/plants_vs_zombies_2_sunflower_by_illustation16_d7gic8z-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE2MSIsInBhdGgiOiJcL2ZcLzU1NTYzNzBlLWI4NWMtNDRmNC05YzVkLTEyODE2NGUzZmU0ZlwvZDdnaWM4ei01Njg3OGZhZS1hYTM3LTQ5ZWQtYmRlYi04NjhhYmMzZjIzY2IucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hikZFRL1perAGd7y4wKtgCMko-fglbvB2hr2wHwl2bA",
+      "noiDung": "Giúp nhận ánh nắng mặt trời để mua các loại cây khác",
+      "gia": 100000
+    },
+    {
+      "id": 4,
+      "ten": "Hoa ăn thịt",
+      "anhBia": "http://sohanews.sohacdn.com/k:2015/12-10-hoa-an-thit-9-1430104340380-1430982395914/diem-danh-cac-loai-hoa-an-thit-co-ve-dep-chet-nguoi.jpg",
+      "noiDung": "Giá cả phải chanwgg, mua nhanh kẻo hết",
+      "gia": 4000000000
+    },
+    {
+      "id": 5,
+      "ten": "Hoa mèo",
+      "anhBia": "https://i.pinimg.com/originals/8c/8b/f2/8c8bf2e46401e56c960cc3ce4e28278e.jpg",
+      "noiDung": "Mua mèo được tặng hoa",
+      "gia": 200000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "son@gmail.com",
+      "matKhau": "123",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "email": "admin@gmail.com",
+      "matKhau": "123",
+      "role": 2
+    }
+  ]
+}

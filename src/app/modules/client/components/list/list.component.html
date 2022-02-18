@@ -1,0 +1,6 @@
+<div class="flex gap-10"style="text-align: center;">
+    <a routerLink="../movie/{{movie.id}}" class="border border-black" *ngFor="let movie of movies">
+        <img src="{{movie.anhBia}}" height="200px" width='400px' class="h-80">
+        <span >{{movie.ten}}</span>
+    </a>
+</div>

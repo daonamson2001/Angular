@@ -1,0 +1,18 @@
+<form (ngSubmit)="onSubmit()">
+    <div>Mã sản phẩm:</div>
+    <input type="number" [(ngModel)]="movie.id" name="id" class="w-96 border border-black my-2 p-2" required><br/>
+
+    <div>Link ảnh:</div>
+    <input id="input" type="text" [(ngModel)]="movie.anhBia" name="anhBia" class="w-full border border-black my-2 p-2" required><br/>
+
+    <div>Tên sản phẩm:</div>
+    <input type="text" [(ngModel)]="movie.ten" name="ten" class="w-96 border border-black my-2 p-2" required><br/>
+
+    <div>Nội dung:</div>
+    <input [(ngModel)]="movie.noiDung" name="noiDung" class="border border-black w-full p-2">
+
+    <div>Giá:</div>
+    <input type="number" [(ngModel)]="movie.gia" name="gia" class="w-96 border border-black my-2 p-2" required><br/>
+
+    <input type="submit" value="Thêm" class="my-2 px-4 bg-green-400 text-white border border-black">
+</form>

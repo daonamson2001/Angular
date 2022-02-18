@@ -1,0 +1,20 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="my-2">Mã sản phẩm: {{movie.id}}</div>
+
+    <div>Ảnh minh họa:</div>
+    <img src="{{movie.anhBia}}" id="img" class="h-80">
+    <input id="input" type="text" [(ngModel)]="movie.anhBia" name="anhBia" value="{{movie.anhBia}}" onchange="changeImg()" class="w-full border border-black my-2 p-2" required><br/>
+
+    <div>Tên sản phẩm:</div>
+    <input type="text" [(ngModel)]="movie.ten" name="ten" value="{{movie.ten}}" class="w-96 border border-black my-2 p-2" required><br/>
+
+    <div>Thông tin chi tiết:</div>
+    <input [(ngModel)]="movie.noiDung" name="noiDung" class="border border-black w-full p-2" value="{{movie.noiDung}}">
+
+    <div>Giá sản phẩm:</div>
+    <input type="number" [(ngModel)]="movie.gia" name="giaVe" value="{{movie.gia}}" class="w-96 border border-black my-2 p-2" required><br/>
+
+    <input type="submit" value="Sửa" class="my-2 px-4 bg-blue-400 text-white border border-black">
+</form>
+
+<button (click)="detele()" onclick="return confirm('Bạn có chắc muốn xóa sản phẩm này ?')" class="my-2 px-4 bg-red-400 text-white border border-black">Xoá</button>

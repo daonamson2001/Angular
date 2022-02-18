@@ -1,0 +1,17 @@
+<div class="py-2"><a routerLink="../add">Thêm sản phẩm</a></div>
+
+<table class="border border-black w-1/2 text-left">
+    <tr>
+        <th class="border border-black p-2">Mã sản phẩm</th>
+        <th class="border border-black p-2">Tên sản phẩm</th>
+        <th class="border border-black p-2">Giá sản phẩm</th>
+        <th class="border border-black p-2">Hành động</th>
+    </tr>
+    <tr *ngFor="let movie of movies">
+        <td class="border border-black p-2">{{movie.id}}</td>
+        <td class="border border-black p-2">{{movie.ten}}</td>
+        <td class="border border-black p-2">{{movie.gia}}</td>
+        <td class="border border-black p-2"><a routerLink="../movie-detail/{{movie.id}}">Xem chi tiết</a></td>
+        <button (click)="detele()" onclick="return confirm('Bạn có chắc muốn xóa sản phẩm này ?')" class="my-2 px-4 bg-red-400 text-white border border-black">Xoá</button>
+    </tr>
+</table>
